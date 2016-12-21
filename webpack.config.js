@@ -43,31 +43,7 @@ module.exports = {
         exclude: /(node_modules)/,
         use: [
           {
-            loader: 'babel-loader',
-            options: {
-              presets: [
-                'latest',
-                'react',
-                'stage-0'
-              ],
-              plugins: [
-                'transform-runtime',
-                ['react-transform', {
-                    transforms: [
-                      {
-                        transform: 'react-transform-hmr',
-                        imports: ['react'],
-                        locals: ['module']
-                      },
-                      {
-                        'transform': 'react-transform-catch-errors',
-                        'imports': ['react', 'redbox-react']
-                      }
-                    ]
-                  }
-                ]
-              ]
-            }
+            loader: 'babel-loader'
           }
         ]
       }
