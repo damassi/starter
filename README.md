@@ -1,1 +1,5 @@
-# stack-2017
+```shell
+yarn
+yarn start
+yarn run build
+```
