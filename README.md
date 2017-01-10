@@ -1,9 +1,12 @@
-### [2016] React, Redux, Webpack 2, React Router 4, Mocha
+### [2016] React, Redux, Webpack 2, React Router 4, Jest
 
 ```shell
 yarn
 yarn start
-yarn run build
-yarn run test
-yarn run test -- --watch
+yarn build
+
+yarn test
+yarn test:watch
+yarn test:coverage
+yarn test:rebuild-snapshot
 ```

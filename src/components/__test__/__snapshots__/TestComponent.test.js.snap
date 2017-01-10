@@ -1,0 +1,5 @@
+exports[`components/TestComponent.js does a snapshot 1`] = `
+<div>
+  Hello!
+</div>
+`;
